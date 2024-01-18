@@ -8,6 +8,8 @@ node print.js
 
 ## Guest server
 
+The database will be automatically created when the server first start
+
 ```bash
 node index.js
 ```

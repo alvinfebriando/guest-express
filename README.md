@@ -11,5 +11,6 @@ node print.js
 The database will be automatically created when the server first start
 
 ```bash
+npm install
 node index.js
 ```

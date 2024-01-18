@@ -35,6 +35,7 @@ export const addGuestHandler = async (req, res) => {
     res.json({
       error: err,
     });
+    return;
   }
 
   res.status(201);
@@ -50,6 +51,7 @@ export const updateGuest = async (req, res) => {
     res.json({
       message: 'guest not found',
     });
+    return;
   }
 
   guest.name = req.body.name;
